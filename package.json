@@ -1,11 +1,17 @@
 {
+  "homepage": "https://AdielApaza.github.io/React",
   "name": "sociallinksprofile",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "react-scripts start",
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "vite build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
