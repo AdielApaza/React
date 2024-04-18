@@ -5,7 +5,6 @@
   font-style: normal;
 }
 
-
 .cuadro{
   background-color: var(--DarkGrey);
   padding: 20px 0px 20px 0px;
@@ -16,23 +15,28 @@
   align-items: center;
   max-width: 300px; 
 }
+
 .titulo{
   /* background-color: blue; */
   text-align: center;
 }
+
 .Imagen img {
   border-radius: 100%;
   max-width: 100px; 
 }
+
 img{
   border-radius: 100%;
 }
+
 .botones{
   /* background-color: brown; */
   display: flex;
   flex-direction: column; 
   align-items: center; 
 }
+
 button{
   margin: 5px; 
   width: 250px;
@@ -45,27 +49,27 @@ button{
     
   cursor: pointer; 
 }
+
 h4{
   color: var(--Green);
   font-family: 'Inter','Arial';
 }
+
 h2{
   color: var(--White);
   font-family: 'Inter','Arial';
 }
+
 button:hover {
-  background-color:var(--Green); /* Cambia el color de fondo del botón a rojo cuando se pasa el cursor por encima */
+  background-color:var(--Green); /* Boton reactivo */
   color: var(--DarkGrey);
 }
+
 p{
   color: darkgray;
   font-family: 'Inter','Arial';
   font-size: 13px;
 }
-
-/* .Imagen{
-  background-color: aqua;
-} */
 
 @media screen and (min-width: 375px){
   @font-face {
@@ -74,16 +78,19 @@ p{
         url('./fonts/Inter-Regular.woff') format('woff');
     font-style: normal;
 }
-:root{
+
+:main-content{
     --Green: hsl(75, 94%, 57%);
     --White: hsl(0, 0%, 100%);
     --Grey: hsl(0, 0%, 20%);
     --DarkGrey: hsl(0, 0%, 12%);
     --OffBlack: hsl(0, 0%, 8%);
 }
+
 body{
     background-color: var(--OffBlack);
 }
+  
 .cuadro{
     background-color: var(--DarkGrey);
     padding: 20px 0px 20px 0px;
@@ -94,23 +101,26 @@ body{
     align-items: center;
     max-width: 300px; 
 }
+  
 .titulo{
-    /* background-color: blue; */
     text-align: center;
 }
+  
 .Imagen img {
     border-radius: 100%;
     max-width: 100px; 
-  }
+}
+  
 img{
     border-radius: 100%;
 }
+
 .botones{
-    /* background-color: brown; */
     display: flex;
     flex-direction: column; 
     align-items: center; 
 }
+
 button{
     margin: 5px; 
     width: 250px;
@@ -119,29 +129,28 @@ button{
     color:var(--White);
     border: none;
     border-radius: 5%;
-     
-      
     cursor: pointer; 
 }
+
 h4{
     color: var(--Green);
     font-family: 'Inter','Arial';
 }
+
 h2{
     color: var(--White);
     font-family: 'Inter','Arial';
 }
+
 button:hover {
-    background-color:var(--Green); /* Cambia el color de fondo del botón a rojo cuando se pasa el cursor por encima */
+    background-color:var(--Green);
     color: var(--DarkGrey);
 }
+
 p{
     color: darkgray;
     font-family: 'Inter','Arial';
     font-size: 13px;
 }
 
-/* .Imagen{
-    background-color: aqua;
-} */
 }
