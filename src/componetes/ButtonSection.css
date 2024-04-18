@@ -5,7 +5,7 @@
     font-style: normal;
 }
 
-:main-content{
+:root{
     --Green: hsl(180, 100, 50);
     --White: hsl(0, 0%, 100%);
     --Grey: hsl(0, 0%, 20%);
