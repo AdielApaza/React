@@ -1,8 +1,8 @@
 import React from "react";
-import "./UserDatails.css";
+import "./Characters.css";
 
 
-const UserDatails = ({user}) => {
+const Characters = ({user}) => {
   
   return (
     <div>
@@ -18,4 +18,4 @@ const UserDatails = ({user}) => {
   );
 };
 
-export default UserDatails;
+export default Characters;
