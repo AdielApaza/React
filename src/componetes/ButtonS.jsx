@@ -1,5 +1,5 @@
 import React from 'react'
-import "./ButtonSection.css"
+import "./ButtonS.css"
 
 const ButtonSection = ({socialLinks}) => {
   return (
@@ -15,4 +15,4 @@ const ButtonSection = ({socialLinks}) => {
   )
 }
 
-export default ButtonSection
+export default ButtonS
