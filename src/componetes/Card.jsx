@@ -1,6 +1,6 @@
 import React from 'react'
 import Characters from './Characters'
-import Buttons from './ButtonS'
+import ButtonS from './ButtonS'
 import "./Card.css"
 
 const card = (props) => {
